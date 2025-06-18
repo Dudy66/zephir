@@ -1,17 +1,20 @@
-# 🌬️ Zéphyr - Application Météo Flutter
+# 🌤 Zéphyr - Application Météo Flutter
 
-Bienvenue sur **Zéphyr**, une application météo simple et moderne développée en Flutter.
+Bienvenue sur **Zéphyr**, une application météo simple et moderne développée en **Flutter**.  
+Elle permet de consulter la météo locale ou d'autres villes, avec des animations, des favoris, et plus encore.
 
 ---
 
 ## ✨ Fonctionnalités principales
 
-* 🔍 **Recherche de ville avec autocomplétion**
-* 🌍 **Météo locale via géolocalisation**
-* ♥️ **Ajout aux favoris avec type personnalisé (maison, vacances...)**
-* 🌧️ **Prévision heure par heure** regroupée par jour
-* 🌌 **Animations Lottie** selon la météo (soleil, nuages...)
-* 🔄 Rafraîchissement facile de la météo actuelle
+- 🔍 Recherche de ville avec **autocomplétion**
+- 🌍 Météo locale via **géolocalisation**
+- ♥️ Ajout aux favoris avec **type personnalisé** (maison, vacances…)
+- 🌧️ Prévisions **heure par heure**, regroupées par jour
+- 🌈 Animations **Lottie** selon la météo (soleil, nuages…)
+- 🔄 Rafraîchissement facile de la météo actuelle
+- 📅 Choix rapide de la date (J+0, J+1, J+3, J+7)
+- 🗺️ Toggle **ville / coordonnées GPS**
 
 ---
 
@@ -22,135 +25,95 @@ flutter pub get
 flutter run
 ```
 
-> ✅ Testé sur Android (emulateur & appareil) et iOS (Xcode + simulateur)
+✅ Testé sur Android (émulateur & appareil réel) et iOS (Xcode + simulateur)
 
 ---
 
-⚙️ Packages / Dépendances utilisées
+## ⚙️ Packages / dépendances
 
-Voici les packages que j’ai utilisés dans l’app, et pourquoi je les ai choisis. Je mets aussi les liens vers les docs ou tutos que j’ai suivis pour apprendre à les utiliser.
+Voici les packages utilisés dans le projet, avec leur utilité et les ressources suivies pour les comprendre :
 
-Voici les principales dépendances utilisées dans le projet et pourquoi je les ai choisies :
+| Package               | Utilité principale                                        |
+|-----------------------|-----------------------------------------------------------|
+| [`http`](https://pub.dev/packages/http) | Pour récupérer les données météo depuis l'API |
+| [`geolocator`](https://pub.dev/packages/geolocator) | Pour accéder à la position de l'utilisateur |
+| [`permission_handler`](https://pub.dev/packages/permission_handler) | Pour demander les permissions de localisation |
+| [`lottie`](https://pub.dev/packages/lottie) | Pour afficher des animations météo |
+| [`shared_preferences`](https://pub.dev/packages/shared_preferences) | Pour enregistrer les favoris localement |
+| [`intl`](https://pub.dev/packages/intl) | Pour formater les dates |
+| [`flutter_localizations`](https://docs.flutter.dev/ui/accessibility-and-localization/internationalization) | Pour afficher l’interface en français |
 
-| Package               | Utilité                                                      |
-| ----------------------| ------------------------------------------------------------ |
-| http                  | Pour récupérer les données météo depuis l'API                |
-| geolocator            | Pour accéder à la position de l'utilisateur                  |
-| permission_handler    | Pour demander les permissions de localisation                |
-| lottie                | Pour afficher de jolies animations météo (soleil, nuages...) |
-| shared_preferences    | Pour enregistrer les villes favorites localement             |
-| intl                  | Pour formater les dates                                      |
-| flutter_localizations | Pour afficher l’interface en français                        |
+---
 
+## 📚 Détails et tutos suivis
 
-⸻
+### 🛰 http
+- Récupération des données météo (Open-Meteo)
+- Suggestions de villes via autocomplétion
+- 📺 [GET request avec Flutter](https://www.youtube.com/watch?v=8Tu9Gjs3xcM)
 
-🔍 Détails et ressources suivies
+---
 
-⸻
+### ❤️ shared_preferences
+- Sauvegarde des villes favorites localement (même après redémarrage)
+- 📺 [Favoris avec Flutter](https://www.youtube.com/watch?v=Ccd5fIrCDSY)
+- 📺 [Local Storage tuto](https://www.youtube.com/watch?v=O72HfMS19F0)
 
-🛰 http
+---
 
-J’ai utilisé http pour :
-	•	récupérer les données météo depuis l’API Open-Meteo
-	•	récupérer des suggestions de villes en tapant du texte
+### 📅 intl
+- Formatage des dates comme "mardi 11 juin à 14h"
+- 📘 [Documentation officielle](https://pub.dev/packages/intl)
 
-🔗 Tutos suivis :
-	•	https://pub.dev/packages/http
-	•	📺 YouTube – GET request Flutter
+---
 
-⸻
+### 📍 geolocator
+- Récupère la position de l’utilisateur automatiquement
+- 📺 [Geolocator Exemple – pub.dev](https://pub.dev/packages/geolocator/example)
+- 📺 [Flutter Geolocator Tuto 1](https://www.youtube.com/watch?v=bpKxAPm1Cig)
+- 📺 [Flutter Geolocator Tuto 2](https://www.youtube.com/watch?v=BkBQ5A0SQmM)
+- 📺 [Geolocator Complet](https://www.youtube.com/watch?v=BKTGE2gy4Kw)
 
-❤️ shared_preferences
+---
 
-Ce package m’a servi pour sauvegarder les favoris localement (dans la mémoire du téléphone), même après redémarrage.
+### 🔐 permission_handler
+- Popup de demande de permission de localisation
+- 📘 [Documentation officielle](https://pub.dev/packages/permission_handler)
+- 📘 [Medium tuto](https://medium.com/@dudhatkirtan/how-to-use-permission-handler-in-flutter-db964943237e)
+- 📺 [Flutter Permission handler](https://www.youtube.com/watch?v=XJlMxUcO1K4)
+- 📺 [Request Permission tuto](https://www.youtube.com/watch?v=N7APZJAsx_4)
 
-🔗 Tutos suivis :
-	•	https://pub.dev/packages/shared_preferences
-	•	📺 YouTube – Favoris avec Flutter
-	•	📺 YouTube – Local Storage tuto
+---
 
-⸻
-
-📅 intl
-
-Je m’en suis servi pour formater les dates et afficher des choses comme “Mardi 11 juin à 14h”.
-
-🔗 Doc :
-	•	https://pub.dev/packages/intl
-
-⸻
-
-📍 geolocator
-
-Ce package m’a permis d’accéder à la position de l’utilisateur au lancement de l’app.
-
-🔗 Tutos que j’ai suivis :
-	•	https://pub.dev/packages/geolocator/example
-	•	📺 Utiliser geolocator
-	•	📺 Flutter Position
-	•	📺 Geolocator complet
-
-⸻
-
-🔐 permission_handler
-
-Je l’ai utilisé pour demander la permission de localisation (popup au début).
-
-🔗 Références :
-	•	https://pub.dev/packages/permission_handler
-	•	📘 Medium tuto
-	•	📺 Permission handler Flutter
-	•	📺 Request Permission tuto
-
-⸻
-
-🌤 lottie
-
-Je m’en suis servi pour afficher des animations météo (soleil, nuages…) avec des fichiers .json animés.
-
-🔗 Tutos :
-	•	https://pub.dev/packages/lottie
-	•	📺 Lottie pour Flutter
-
-## 📅 Bonus ajoutés
-
-* Toggle "ville / coordonnées" pour changer la façon de rechercher
-* Design adapté mobile, avec effet visuel moderne
-* Gestion des erreurs (ville non trouvée, pas de GPS...)
-* Scroll automatique vers la météo après recherche
+### 🌤 lottie
+- Affichage d'animations météo (JSON animés)
+- 📺 [Lottie avec Flutter](https://www.youtube.com/watch?v=MN1AWvYJgkE)
 
 ---
 
 ## 📷 Captures d’écran
 
 ### 🏠 Accueil
-
 ![Accueil](screenshots/Accueil.png)
 
 ### 🔍 Autocomplétion des villes
-
-![Autocomplétion](screenshots/autocomplete.png)
+![Autocomplétion](screenshots/Autocompletion.png)
 
 ### 📊 Détails météo heure par heure
-
-![Détails](screenshots/heure_par_heure.png)
+![Détails](screenshots/Details.png)
 
 ### ♥️ Ajout aux favoris
-
-![Favoris](screenshots/card_details.png)
+![Favoris](screenshots/Favoris.png)
 
 ### 📍 Chargement via géolocalisation
-
-![Géoloc](screenshots/chargement_position.png)
+![Géoloc](screenshots/Geoloc.png)
 
 ### ❓ Demande de permission de localisation
-
-![Permission](screenshots/demande_geoloc.png)
+![Permission](screenshots/Permission.png)
 
 ---
 
-## 📁 Structure du projet (extrait)
+## 📁 Structure du projet
 
 ```
 lib/
@@ -173,15 +136,14 @@ lib/
 
 ---
 
-## 📡 Liens utiles
+## 📡 API utilisée
 
-* API utilisée : [Open-Meteo](https://open-meteo.com/)
-* Dépendances : voir pubspec.yaml
-* Vidéos & docs consultées : voir commentaires dans le README ou dans les fichiers source
+- [Open-Meteo API](https://open-meteo.com/) – pour la météo
 
 ---
 
-> Projet réalisé dans le cadre d'un test de recrutement
+## Remerciements
 
----
+Ce projet m’a permis de découvrir et mettre en pratique des concepts fondamentaux de Flutter. 💙
+
 
