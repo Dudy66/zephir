@@ -91,26 +91,35 @@ Voici les packages utilisés dans le projet, avec leur utilité et les ressource
 
 ---
 
+## 📷 Captures d’écran (comme j’imaginais l’application au début)
+
+### Schema 1 
+![Schema_1](screenshots/schema_1.png)
+
+### Schema 2 
+![Schema_2](screenshots/schema_2.png)
+
+---
+
 ## 📷 Captures d’écran
 
 ### 🏠 Accueil
-![Accueil](screenshots/Accueil.png)
+![Accueil](screenshots/Acceuil.png)
 
 ### 🔍 Autocomplétion des villes
-![Autocomplétion](screenshots/Autocompletion.png)
+![Autocomplete](screenshots/autocomplete.png)
 
 ### 📊 Détails météo heure par heure
-![Détails](screenshots/Details.png)
-
-### ♥️ Ajout aux favoris
-![Favoris](screenshots/Favoris.png)
+![Card details](screenshots/card_details.png)
 
 ### 📍 Chargement via géolocalisation
-![Géoloc](screenshots/Geoloc.png)
+![Chargement position](screenshots/chargement_position.png)
 
-### ❓ Demande de permission de localisation
-![Permission](screenshots/Permission.png)
+### ❓ Demande de permission de géolocalisation
+![Demande géoloc](screenshots/demande_geoloc.png)
 
+### ⏱ Heure par heure
+![Heure par heure](screenshots/heure_par_heure.png)
 ---
 
 ## 📁 Structure du projet
