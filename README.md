@@ -104,6 +104,18 @@ Compatible Android (téléphone & émulateur) et iOS (simu + Xcode).
 
 ---
 
+## 🗂️ Captures d'écran (comme j'imaginais l'appli au début)
+
+### Schéma 1
+
+![Schema 1](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2Fschema_1.png?alt=media&token=54f933f2-b726-4d6d-ae76-60c5444588af)
+
+### Schéma 2
+
+![Schema 2](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2Fschema_2.png?alt=media&token=4c4edf82-38b3-4c29-9fea-5140d39bdf34)
+
+---
+
 ## 📷 Captures d'écran (vraie interface actuelle)
 
 ### 🏠 Accueil
@@ -129,18 +141,6 @@ Compatible Android (téléphone & émulateur) et iOS (simu + Xcode).
 ### ❓ Demande de permission GPS
 
 ![Permission](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2FDemande%20Geoloc.png?alt=media&token=84eb37d5-e82a-4451-9e81-8fa7bc78449d)
-
----
-
-## 🗂️ Captures d'écran (comme j'imaginais au début)
-
-### Schéma 1
-
-![Schema 1](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2Fschema_1.png?alt=media&token=54f933f2-b726-4d6d-ae76-60c5444588af)
-
-### Schéma 2
-
-![Schema 2](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2Fschema_2.png?alt=media&token=4c4edf82-38b3-4c29-9fea-5140d39bdf34)
 
 ---
 
