@@ -1,7 +1,6 @@
 # 🌬️ Zéphyr - Application Météo Flutter
 
-Bienvenue sur **Zéphyr**, une application météo simple, moderne et fonctionnelle développée en **Flutter** pour le test d'alternance développeur chez **AquaTech Innovation**.
-
+Bienvenue sur **Zéphyr**, une application météo simple, moderne et fonctionnelle développée en **Flutter** 
 ---
 
 ## ✨ Fonctionnalités principales
@@ -141,7 +140,7 @@ Compatible Android (téléphone & émulateur) et iOS (simu + Xcode).
 
 ### Schéma 2
 
-![Schema 2](https://raw.githubusercontent.com/Dudy66/zephir/main/screenshots/schema_2.png)
+![Schema 2](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2Fschema_2.png?alt=media&token=4c4edf82-38b3-4c29-9fea-5140d39bdf34)
 
 ---
 
