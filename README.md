@@ -1,128 +1,151 @@
-# 🌤 Zéphyr - Application Météo Flutter
+# 🌬️ Zéphyr - Application Météo Flutter
 
-Bienvenue sur **Zéphyr**, une application météo simple et moderne développée en **Flutter**.  
-Elle permet de consulter la météo locale ou d'autres villes, avec des animations, des favoris, et plus encore.
+Bienvenue sur **Zéphyr**, une application météo simple, moderne et fonctionnelle développée en **Flutter** pour le test d'alternance développeur chez **AquaTech Innovation**.
 
 ---
 
 ## ✨ Fonctionnalités principales
 
-- 🔍 Recherche de ville avec **autocomplétion**
-- 🌍 Météo locale via **géolocalisation**
-- ♥️ Ajout aux favoris avec **type personnalisé** (maison, vacances…)
-- 🌧️ Prévisions **heure par heure**, regroupées par jour
-- 🌈 Animations **Lottie** selon la météo (soleil, nuages…)
-- 🔄 Rafraîchissement facile de la météo actuelle
-- 📅 Choix rapide de la date (J+0, J+1, J+3, J+7)
-- 🗺️ Toggle **ville / coordonnées GPS**
+* 🔍 Recherche de ville avec **autocomplétion**
+* 🌍 Météo locale via **géolocalisation**
+* ❤️ Ajout aux **favoris** avec **type personnalisé** (maison, vacances...)
+* ☂️ Prévision **heure par heure** regroupée par **jour**
+* 🌌 **Animations Lottie** selon la météo (soleil, nuages...)
+* ↺ Rafraîchissement rapide avec position actuelle
 
 ---
 
-## 🔧 Lancer le projet
+## 🛠️ Lancer le projet
 
 ```bash
 flutter pub get
 flutter run
 ```
 
-✅ Testé sur Android (émulateur & appareil réel) et iOS (Xcode + simulateur)
+Compatible Android (téléphone & émulateur) et iOS (simu + Xcode).
 
 ---
 
-## ⚙️ Packages / dépendances
+## ⚖️ Packages / dépendances utilisées
 
-Voici les packages utilisés dans le projet, avec leur utilité et les ressources suivies pour les comprendre :
-
-| Package               | Utilité principale                                        |
-|-----------------------|-----------------------------------------------------------|
-| [`http`](https://pub.dev/packages/http) | Pour récupérer les données météo depuis l'API |
-| [`geolocator`](https://pub.dev/packages/geolocator) | Pour accéder à la position de l'utilisateur |
-| [`permission_handler`](https://pub.dev/packages/permission_handler) | Pour demander les permissions de localisation |
-| [`lottie`](https://pub.dev/packages/lottie) | Pour afficher des animations météo |
-| [`shared_preferences`](https://pub.dev/packages/shared_preferences) | Pour enregistrer les favoris localement |
-| [`intl`](https://pub.dev/packages/intl) | Pour formater les dates |
-| [`flutter_localizations`](https://docs.flutter.dev/ui/accessibility-and-localization/internationalization) | Pour afficher l’interface en français |
+| Package                 | Utilité                                               |
+| ----------------------- | ----------------------------------------------------- |
+| `http`                  | Appels à l'API Open-Meteo + autocomplétion des villes |
+| `geolocator`            | Récupération de la position GPS de l'utilisateur      |
+| `permission_handler`    | Demander les autorisations de localisation            |
+| `lottie`                | Affichage des animations JSON (soleil, nuage...)      |
+| `shared_preferences`    | Sauvegarde des favoris localement sur le téléphone    |
+| `intl`                  | Formatage des dates (mardi 11 juin à 14h)             |
+| `flutter_localizations` | Localisation en français                              |
 
 ---
 
-## 📚 Détails et tutos suivis
+## 🔍 Détails et ressources suivies
 
-### 🛰 http
-- Récupération des données météo (Open-Meteo)
-- Suggestions de villes via autocomplétion
-- 📺 [GET request avec Flutter](https://www.youtube.com/watch?v=8Tu9Gjs3xcM)
+### 🚀 `http`
+
+* Pour récupérer les données météo de l'API Open-Meteo
+* Pour récupérer des suggestions de villes (autocomplétion)
+
+→ Docs / tutos :
+[https://pub.dev/packages/http](https://pub.dev/packages/http)
+[🎥 GET Request Flutter (YouTube)](https://www.youtube.com/watch?v=8Tu9Gjs3xcM)
+
+### ❤️ `shared_preferences`
+
+* Pour sauvegarder les villes favorites dans le stockage local.
+
+→ Docs / tutos :
+[https://pub.dev/packages/shared\_preferences](https://pub.dev/packages/shared_preferences)
+[🎥 Favoris avec Flutter](https://www.youtube.com/watch?v=Ccd5fIrCDSY)
+[🎥 Local storage Flutter](https://www.youtube.com/watch?v=O72HfMS19F0)
+
+### 🗓 `intl`
+
+* Pour formater les dates et heures correctement.
+
+→ Docs :
+[https://pub.dev/packages/intl](https://pub.dev/packages/intl)
+
+### 📍 `geolocator`
+
+* Pour accéder à la position GPS à l'ouverture de l'app.
+
+→ Tutos :
+[https://pub.dev/packages/geolocator/example](https://pub.dev/packages/geolocator/example)
+[🎥 Geolocator usage](https://www.youtube.com/watch?v=bpKxAPm1Cig)
+[🎥 GPS Position Flutter](https://www.youtube.com/watch?v=BkBQ5A0SQmM)
+[🎥 Geolocator complet](https://www.youtube.com/watch?v=BKTGE2gy4Kw)
+
+### 🔐 `permission_handler`
+
+* Pour gérer les permissions utilisateur de manière propre.
+
+→ Docs :
+[https://pub.dev/packages/permission\_handler](https://pub.dev/packages/permission_handler)
+[🎥 Flutter Permission Handler](https://www.youtube.com/watch?v=XJlMxUcO1K4)
+[🎥 Request Permission](https://www.youtube.com/watch?v=N7APZJAsx_4)
+
+### ☀️ `lottie`
+
+* Pour rendre l'interface plus vivante avec des animations JSON adaptées à la météo.
+
+→ Docs :
+[https://pub.dev/packages/lottie](https://pub.dev/packages/lottie)
+[🎥 Lottie Flutter](https://www.youtube.com/watch?v=FjqMIy803yQ)
 
 ---
 
-### ❤️ shared_preferences
-- Sauvegarde des villes favorites localement (même après redémarrage)
-- 📺 [Favoris avec Flutter](https://www.youtube.com/watch?v=Ccd5fIrCDSY)
-- 📺 [Local Storage tuto](https://www.youtube.com/watch?v=O72HfMS19F0)
+## 🌟 Bonus ajoutés
+
+* ⏺ **Toggle "ville / coordonnées"**
+* 🛏️ Design adapté mobile, visuel moderne
+* ⚠️ Gestion d'erreurs (pas de GPS, ville vide...)
+* 🔄 Scroll automatique vers la météo après sélection
 
 ---
 
-### 📅 intl
-- Formatage des dates comme "mardi 11 juin à 14h"
-- 📘 [Documentation officielle](https://pub.dev/packages/intl)
-
----
-
-### 📍 geolocator
-- Récupère la position de l’utilisateur automatiquement
-- 📺 [Geolocator Exemple – pub.dev](https://pub.dev/packages/geolocator/example)
-- 📺 [Flutter Geolocator Tuto 1](https://www.youtube.com/watch?v=bpKxAPm1Cig)
-- 📺 [Flutter Geolocator Tuto 2](https://www.youtube.com/watch?v=BkBQ5A0SQmM)
-- 📺 [Geolocator Complet](https://www.youtube.com/watch?v=BKTGE2gy4Kw)
-
----
-
-### 🔐 permission_handler
-- Popup de demande de permission de localisation
-- 📘 [Documentation officielle](https://pub.dev/packages/permission_handler)
-- 📘 [Medium tuto](https://medium.com/@dudhatkirtan/how-to-use-permission-handler-in-flutter-db964943237e)
-- 📺 [Flutter Permission handler](https://www.youtube.com/watch?v=XJlMxUcO1K4)
-- 📺 [Request Permission tuto](https://www.youtube.com/watch?v=N7APZJAsx_4)
-
----
-
-### 🌤 lottie
-- Affichage d'animations météo (JSON animés)
-- 📺 [Lottie avec Flutter](https://www.youtube.com/watch?v=MN1AWvYJgkE)
-
----
-
-## 📷 Captures d’écran (comme j’imaginais l’application au début)
-
-### Schema 1 
-![Schema_1](screenshots/schema_1.png)
-
-### Schema 2 
-![Schema_2](screenshots/schema_2.png)
-
----
-
-## 📷 Captures d’écran
+## 📷 Captures d'écran (vraie interface actuelle)
 
 ### 🏠 Accueil
-![Accueil](screenshots/Acceuil.png)
 
-### 🔍 Autocomplétion des villes
-![Autocomplete](screenshots/autocomplete.png)
+![Accueil](https://raw.githubusercontent.com/Dudy66/zephir/main/screenshots/Acceuil.png)
 
-### 📊 Détails météo heure par heure
-![Card details](screenshots/card_details.png)
+### 🔍 Autocomplétion
 
-### 📍 Chargement via géolocalisation
-![Chargement position](screenshots/chargement_position.png)
+![Autocomplétion](https://raw.githubusercontent.com/Dudy66/zephir/main/screenshots/autocomplete.png)
 
-### ❓ Demande de permission de géolocalisation
-![Demande géoloc](screenshots/demande_geoloc.png)
+### 📊 Détails heure par heure
 
-### ⏱ Heure par heure
-![Heure par heure](screenshots/heure_par_heure.png)
+![Détails](https://raw.githubusercontent.com/Dudy66/zephir/main/screenshots/heure_par_heure.png)
+
+### ❤️ Favoris
+
+![Favoris](https://raw.githubusercontent.com/Dudy66/zephir/main/screenshots/card_details.png)
+
+### 📍 Chargement par position
+
+![Géoloc](https://raw.githubusercontent.com/Dudy66/zephir/main/screenshots/chargement_position.png)
+
+### ❓ Demande de permission GPS
+
+![Permission](https://raw.githubusercontent.com/Dudy66/zephir/main/screenshots/demande_geoloc.png)
+
 ---
 
-## 📁 Structure du projet
+## 🗂️ Captures d'écran (comme j'imaginais au début)
+
+### Schéma 1
+
+![Schema 1](https://raw.githubusercontent.com/Dudy66/zephir/main/screenshots/schema_1.png)
+
+### Schéma 2
+
+![Schema 2](https://raw.githubusercontent.com/Dudy66/zephir/main/screenshots/schema_2.png)
+
+---
+
+## 📁 Structure du projet (lib)
 
 ```
 lib/
@@ -145,14 +168,14 @@ lib/
 
 ---
 
-## 📡 API utilisée
+## 📶 Liens utiles
 
-- [Open-Meteo API](https://open-meteo.com/) – pour la météo
+* API utilisée : [Open-Meteo](https://open-meteo.com/)
+* Tutos & démos : voir plus haut ▲ ou dans les commentaires du code
+* Repos GitHub : [github.com/Dudy66/zephir](https://github.com/Dudy66/zephir)
 
 ---
 
-## Remerciements
+Merci AquaTech pour ce test motivant 🙏 !
 
-Ce projet m’a permis de découvrir et mettre en pratique des concepts fondamentaux de Flutter. 💙
-
-
+---
