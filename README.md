@@ -1,6 +1,7 @@
-# 🌬️ Zéphyr - Application Météo Flutter
+# ~-<🌴>-~ 🌬️ Zéphyr - Application Météo Flutter ~-<☀️>-~
 
 Bienvenue sur **Zéphyr**, une application météo simple, moderne et fonctionnelle développée en **Flutter** 
+
 ---
 
 ## ✨ Fonctionnalités principales
@@ -177,7 +178,7 @@ lib/
 
 Merci AquaTech pour ce test motivant 🙏 !
 
-Vous avez envie de tester mon autre application Swift “Overlook” ?
+Vous avez envie de tester mon application Swift “Overlook” ?
 
 Elle est disponible sur TestFlight (iOS) !
 
