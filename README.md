@@ -177,9 +177,7 @@ lib/
 
 Merci AquaTech pour ce test motivant 🙏 !
 
-PS : 📱 Testez aussi mon autre app dédié à Stephen king !
-
-Vous avez envie de tester mon autre application Flutter “Overlook” ?
+Vous avez envie de tester mon autre application Swift “Overlook” ?
 
 Elle est disponible sur TestFlight (iOS) !
 
