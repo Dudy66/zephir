@@ -39,7 +39,6 @@ class _CitySearchFieldState extends State<CitySearchField> {
       },
       onSelected: (selection) {
         widget.onCitySelected(selection);
-        widget.controller.clear(); // vide le champ une fois choisit
       },
       fieldViewBuilder: (context, textController, focusNode, onFieldSubmitted) {
         widget.controller.addListener(() {
@@ -100,7 +99,6 @@ class _CitySearchFieldState extends State<CitySearchField> {
                       style: const TextStyle(fontWeight: FontWeight.w500),
                     ),
                     onTap: () {
-                      widget.controller.clear();
                       onSelected(option);
                     },
                   );
