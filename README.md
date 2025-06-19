@@ -21,7 +21,7 @@ flutter pub get
 flutter run
 ```
 
-Compatible Android (téléphone & émulateur) et iOS (simu + Xcode).
+Compatible Android (téléphone & émulateur).
 
 ---
 
@@ -176,5 +176,19 @@ lib/
 ---
 
 Merci AquaTech pour ce test motivant 🙏 !
+
+PS : 📱 Testez aussi mon autre app dédié à Stephen king !
+
+Vous avez envie de tester mon autre application Flutter “Overlook” ?
+
+Elle est disponible sur TestFlight (iOS) !
+
+👉 Demandez-moi une invitation par mail ou message.
+
+### ❓ Overlook
+
+![Overlook](### ❓ Demande de permission GPS
+
+![Permission](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2FDemande%20Geoloc.png?alt=media&token=84eb37d5-e82a-4451-9e81-8fa7bc78449d))
 
 ---
