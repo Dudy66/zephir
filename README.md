@@ -185,7 +185,7 @@ Elle est disponible sur TestFlight (iOS) !
 
 👉 Demandez-moi une invitation par mail ou message.
 
-### ❓ Overlook
+### Overlook
 
 ![overlook](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2FIMG_4073.jpg?alt=media&token=e863735b-bb4b-4793-981c-d715ea08b554)
 
