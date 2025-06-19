@@ -1,4 +1,4 @@
-# ~-<🌴>-~ 🌬️ Zéphyr - Application Météo Flutter ~-<☀️>-~
+# -<🌴>- 🌬️ Zéphyr - Application Météo Flutter -<☀️>-
 
 Bienvenue sur **Zéphyr**, une application météo simple, moderne et fonctionnelle développée en **Flutter** 
 
