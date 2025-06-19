@@ -187,8 +187,6 @@ Elle est disponible sur TestFlight (iOS) !
 
 ### ❓ Overlook
 
-![Overlook](### ❓ Demande de permission GPS
-
-![Permission](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2FDemande%20Geoloc.png?alt=media&token=84eb37d5-e82a-4451-9e81-8fa7bc78449d))
+![overlook](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2FIMG_4073.jpg?alt=media&token=e863735b-bb4b-4793-981c-d715ea08b554)
 
 ---
