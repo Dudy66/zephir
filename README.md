@@ -182,7 +182,7 @@ Vous avez envie de tester mon application Swift “Overlook” ?
 
 Elle est disponible sur TestFlight (iOS) !
 
-👉 [Demandez-moi une invitation par mail ou message.](https://testflight.apple.com/join/wrx5sBBJ)
+👉 [lien d'invitation](https://testflight.apple.com/join/wrx5sBBJ)
 
 ### Overlook
 
