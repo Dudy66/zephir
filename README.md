@@ -186,6 +186,6 @@ Elle est disponible sur TestFlight (iOS) !
 
 ### Overlook
 
-![overlook](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2FIMG_4073.jpg?alt=media&token=e863735b-bb4b-4793-981c-d715ea08b554)
+![overlook](https://firebasestorage.googleapis.com/v0/b/overlookapp-b9e00.firebasestorage.app/o/projet%2FIMG_4138.jpg?alt=media&token=13603709-4334-4f2d-a2b7-02772000134a)
 
 ---
